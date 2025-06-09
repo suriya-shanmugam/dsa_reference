@@ -34,11 +34,14 @@ int main(){
 	std::cout << "What does the it holds ??? " << it << std::endl;
 
 	// useful for simple iteration
+	// Gives reference std::pair<std::string, int> and it is a declaration so we can copy or reference or use const to make it only readable
 	for (auto &kv : phone_book){
-		kv.second +=1;
 		std::cout << kv.first << kv.second << std::endl;
 	}
 	
+        // Accessing map without the value will result in insertion with default value
+	//std::cout << "Accessing using key directly "<< phone_book["Tharu"] << std::endl;
+
 	try{
            	// thorw exception if key doesnot exists
 		std::cout << phone_book.at("Tharu");
