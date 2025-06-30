@@ -28,6 +28,5 @@ int main(){
 		cout << std::endl;
 	}*/
 	pre_order_dfs(0,adj_list_by_node);
-
 	return 0;
 }
