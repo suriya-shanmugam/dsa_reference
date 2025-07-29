@@ -5,3 +5,7 @@
 
 # VS Code settings
 .vscode/
+
+**/run
+**/*.o
+**/a.out
