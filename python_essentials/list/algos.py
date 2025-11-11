@@ -40,7 +40,4 @@ r = 3
 res = l[r:]+l[:r]
 print("rotated list ", res)
 
-l = [1,2,3,4,5]
-k = r%len(l)
-l[:] = l[k:]+ l[:k]
-print("left rotation in place??? ",l)
+
